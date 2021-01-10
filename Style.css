@@ -1,0 +1,168 @@
+
+
+header{
+	height:50px;
+	text-align: right;
+	width: 100%
+
+}
+
+img {
+	border-radius: 15px;
+}
+
+}
+
+button {
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: stretch;
+    box-sizing: content-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 3px;
+    border-width: 1px;
+    border-style: none;
+       
+}
+
+.mon-menu span
+{
+	border-radius: 15px;
+	
+	display:block;
+	width:20%;
+	margin:3px;
+	
+	
+}
+.mon-menu
+{
+	
+	max-height:10px;
+    overflow:hidden;
+    border-radius: 15px
+
+}
+.mon-menu:hover
+{
+	max-height:100%;
+    overflow:auto;
+
+
+
+}
+
+body {font-family: roboto, comic sans ms, arial; }
+
+	
+#container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+height: 500px;
+}
+  
+
+.Recherche{
+	display: flex;
+	margin: 0 auto 20px auto;
+	border : 1px solid black;
+	width: 500px;
+	border-radius: 24px;
+
+}
+
+.search:hover{
+	width: 500px;
+	height: 50px;
+	border:none;
+	border-radius: 24px;
+	display: flex;
+	background-color: transparent;
+	box-shadow: 1px 1px 12px #555;
+
+}
+
+.search:focus{
+	width: 500px;
+	height: 50px;
+	border:none;
+	border-radius: 24px;
+	display: flex;
+	background-color: transparent;
+	outline: none;
+}
+
+.search{
+	width: 500px;
+	height: 50px;
+	border:none;
+	border-radius: 24px;
+	display: flex;
+	background-color: transparent;
+
+
+}
+
+.submit{
+ border-radius: 5px;
+ padding: 10px;
+ padding: 5px;
+ background-color: #EAE8E8;
+ border : 1px solid #EAE8E8;
+ font-size: 16px;
+
+
+}
+
+.buttons
+{display: flex;
+width: 300px;
+justify-content: space-around;}
+
+span {color: #D5D3D3;}
+
+footer{
+	
+	background-color:#EAE8E8;
+	position: absolute;
+  width: 100%; height: 100px;
+  bottom: 0; left: 0; right: 0;
+  padding: 10px;
+
+}
+
+#footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menuG{
+	display: flex;
+	justify-content: : left;
+
+}
+
+.menuD{
+	display: flex;
+	justify-content: : right;
+}
+
+nav {padding : 10px;
+}
+
+nav a{ color: #8D8B8B;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+	font-family: roboto; 
+	
+ }
